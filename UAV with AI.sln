@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UAV with AI", "UAV with AI.csproj", "{6F59CF12-8D6C-42B8-B83D-10852372D09D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF} = {5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DJIVideoParser", "DJIVideoParser\DJIVideoParser.vcxproj", "{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM.Build.0 = Debug|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM64.Build.0 = Debug|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x64.ActiveCfg = Debug|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x64.Build.0 = Debug|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x64.Deploy.0 = Debug|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x86.ActiveCfg = Debug|x86
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x86.Build.0 = Debug|x86
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Debug|x86.Deploy.0 = Debug|x86
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM.ActiveCfg = Release|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM.Build.0 = Release|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM.Deploy.0 = Release|ARM
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM64.ActiveCfg = Release|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM64.Build.0 = Release|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|ARM64.Deploy.0 = Release|ARM64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x64.ActiveCfg = Release|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x64.Build.0 = Release|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x64.Deploy.0 = Release|x64
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x86.ActiveCfg = Release|x86
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x86.Build.0 = Release|x86
+		{6F59CF12-8D6C-42B8-B83D-10852372D09D}.Release|x86.Deploy.0 = Release|x86
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|ARM.Build.0 = Debug|ARM
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|x64.ActiveCfg = Debug|x64
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|x64.Build.0 = Debug|x64
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Debug|x86.Build.0 = Debug|Win32
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|ARM.ActiveCfg = Release|ARM
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|ARM.Build.0 = Release|ARM
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|ARM64.ActiveCfg = Release|Win32
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|x64.ActiveCfg = Release|x64
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|x64.Build.0 = Release|x64
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|x86.ActiveCfg = Release|Win32
+		{5F8B4A30-B8D1-46B5-BE32-AEE3C899E3BF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D972056-8FA4-4E5A-9D08-D9693238A609}
+	EndGlobalSection
+EndGlobal
